@@ -1,0 +1,41 @@
+header {
+    background-color: #C9D8C5;
+}
+
+h2.col-sm-3 {
+    color: #95AF8C;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#rest_of_body {
+    background-color: #42313F;
+}
+
+.dummy_picture {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: blue;
+}
+
+.words {
+    margin-top: 40px;
+}
+
+
+.row.project_list {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h4 {
+    font-size: 3rem;
+    color: #5E5E5E;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #5E5E5E;
+}
