@@ -1,0 +1,40 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+
+    <!-- CSS -->
+    <link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href = "../css/Portfolio%20Page.css" rel="stylesheet"/>
+
+    <!-- JS -->
+    <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src = "../js/app.js"></script>          <!-- AngularJS app and directive -->
+    <script src = "../js/controller.js"></script>    <!-- Controller -->
+    <!--<script src="../js/angular.min.js"></script>-->
+
+
+</head>
+<body ng-app = "app">
+
+      <header class="container-fluid">
+          <ul class="row text-center">
+              <h2 class="col-sm-3">About</h2>
+              <h2 class="col-sm-3">Portfolio</h2>
+              <h2 class="col-sm-3">Resume</h2>
+              <h2 class="col-sm-3">Contact</h2>
+          </ul>
+      </header>
+
+
+      <div ng-controller = "controller">
+          <div ng-repeat = "project in projects">
+              <project title = "project"></project><br/>
+          </div>
+      </div>
+
+
+</body>
+
+</html>

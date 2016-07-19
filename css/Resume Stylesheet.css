@@ -1,0 +1,40 @@
+body {
+    font: Calibri;
+}
+
+h2 {
+    text-align: center;
+}
+
+#contact_info {
+    text-align: center;
+}
+
+.categories {
+    color: #5cb85c;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+#name {
+    color: royalblue;
+    font-size: 75px;
+    font: Calibri;
+}
+
+#pdf {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    font: Calibri;
+}
+
+h3 {
+    text-align: center;
+}
