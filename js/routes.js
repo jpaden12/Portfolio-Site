@@ -4,22 +4,24 @@
 app.config(['$routeProvider',
     function config($routeProvider) {
 
-        $routeProvider.
-            when('/', {
+        $routeProvider
+            .when('/', {
             templateUrl: '../views/Landing%20Page.html'
-            }).
-            when('/resume', {
+            })
+            .when('/resume', {
             templateUrl: '../Jamals_Resume.pdf'
-            }).
-            when('/portfolio', {
+            })
+            .when('/portfolio', {
             templateUrl: '../views/Portfolio%20Page.html'
-            }).
-            when('/about', {
+            })
+            .when('/about', {
             templateUrl: '../views/About%20Page.html'
-            }).
-            when('/contact', {
+            })
+            .when('/contact', {
             templateUrl: '../views/Contact.html'
-            }).
-            otherwise('/');
+            })
+            .otherwise({
+                redirectTo: '/'
+            });
     }
 ]);
