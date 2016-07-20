@@ -1,7 +1,7 @@
 /**
  * Created by Jamal12 on 7/12/2016.
  */
-var app = angular.module("app", []);
+var app = angular.module("app", ['ngRoute']);
 
 app.directive('project', function() {
     var directive = {
@@ -16,3 +16,4 @@ app.directive('project', function() {
 
     return directive; 
 });
+
