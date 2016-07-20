@@ -1,10 +1,9 @@
 /**
  * Created by Jamal12 on 7/19/2016.
  */
-app.config(['$routeProvider',
-    function config($routeProvider) {
-
-        $routeProvider
+app.config(function($routeProvider) {
+    
+    $routeProvider
             .when('/', {
             templateUrl: '../views/Landing%20Page.html'
             })
@@ -12,6 +11,7 @@ app.config(['$routeProvider',
             templateUrl: '../Jamals_Resume.pdf'
             })
             .when('/portfolio', {
+            controller: 'controller',
             templateUrl: '../views/Portfolio%20Page.html'
             })
             .when('/about', {
@@ -23,5 +23,4 @@ app.config(['$routeProvider',
             .otherwise({
                 redirectTo: '/'
             });
-    }
-]);
+    }); 
