@@ -14,21 +14,21 @@ h2 {
     color: #95AF8C;
 }
 
-.col-sm-6.right {
+.col-md-6.right {
     text-align: right;
     font-size: 2.75rem;
 }
 
-.col-sm-6.right:hover {
+.col-md-6.right:hover {
     font-size:4rem;
     color: #C9D8C5;
 }
-.col-sm-6.left {
+.col-md-6.left {
     text-align: left;
     font-size: 2.75rem;
 }
 
-.col-sm-6.left:hover {
+.col-md-6.left:hover {
     font-size:4rem;
     color: #C9D8C5;
 }
