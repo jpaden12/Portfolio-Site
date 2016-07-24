@@ -24,17 +24,17 @@ app.config(function($routeProvider) {
             templateUrl: "../views/Landing%20Page.html",
             controller: "landingPage"
             })
-        .when("/portfolio",
+        .when("/#/portfolio",
             {
             templateUrl: "../views/Portfolio%20Page.html",
             controller: "controller"
             })
-        .when("/resume",
+        .when("/#/resume",
             {
                 templateUrl: "../Jamals_Resume.pdf",
                 controller: "resume"
             })
-        .when("/contact",
+        .when("/#/contact",
             {
                 templateUrl: "ContactMe.html",
                 controller: "contactPage"
