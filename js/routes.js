@@ -20,7 +20,7 @@ app.config(function($routeProvider, $locationProvider) {
             })
         .when("/contact",
             {
-                templateUrl: "../views/ContactMe.html",
+                templateUrl: "ContactMe.html",
                 controller: "contactPage"
             })
         .otherwise({
