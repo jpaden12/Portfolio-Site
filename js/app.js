@@ -17,3 +17,31 @@ app.directive('project', function() {
     return directive; 
 });
 
+app.config(function($routeProvider) {
+    $routeProvider
+        .when("/",
+            {
+            templateUrl: "../views/Landing%20Page.html",
+            controller: "landingPage"
+            })
+        .when("/portfolio",
+            {
+            templateUrl: "../views/Portfolio%20Page.html",
+            controller: "controller"
+            })
+        .when("/resume",
+            {
+                templateUrl: "../Jamals_Resume.pdf",
+                controller: "resume"
+            })
+        .when("/contact",
+            {
+                templateUrl: "ContactMe.html",
+                controller: "contactPage"
+            })
+        .otherwise({
+            redirectTo: "/"
+        });
+
+});
+
