@@ -53,3 +53,16 @@ app.controller('controller', function($scope) {
             }
         ]
     });
+
+app.controller('landingPage', function($scope) {
+
+});
+
+app.controller('resume', function($scope) {
+
+});
+
+app.controller('contactPage', function($scope) {
+
+    $scope.message = "The routing still works!";
+});

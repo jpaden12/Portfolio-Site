@@ -2,25 +2,35 @@
  * Created by Jamal12 on 7/19/2016.
  */
 app.config(function($routeProvider) {
-    
     $routeProvider
-            .when('/', {
-            templateUrl: '../views/Landing%20Page.html'
+        .when("/",
+            {
+            templateUrl: "../views/Landing%20Page.html",
+            controller: "landingPage"
             })
-            .when('/resume', {
-            templateUrl: '../Jamals_Resume.pdf'
+        .when("/portfolio",
+            {
+            templateUrl: "../views/Portfolio%20Page.html",
+            controller: "controller"
             })
-            .when('/portfolio', {
-            controller: 'controller',
-            templateUrl: '../views/Portfolio%20Page.html'
+        .when("/resume",
+            {
+                templateUrl: "../Jamals_Resume.pdf",
+                controller: "resume"
             })
-            .when('/about', {
-            templateUrl: '../views/About%20Page.html'
+        .when("/contact",
+            {
+                templateUrl: "../views/ContactMe.html",
+                controller: "contactPage"
             })
-            .when('/contact', {
-            templateUrl: '../views/Contact.html'
-            })
-            .otherwise({
-                redirectTo: '/'
-            });
-    }); 
+        .otherwise({
+            redirectTo: "/"
+        });
+
+
+
+});
+
+
+
+
