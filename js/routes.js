@@ -1,7 +1,7 @@
 /**
  * Created by Jamal12 on 7/19/2016.
  */
-app.config(function($routeProvider) {
+app.config(function($routeProvider, $locationProvider) {
     $routeProvider
         .when("/",
             {
@@ -27,7 +27,7 @@ app.config(function($routeProvider) {
             redirectTo: "/"
         });
 
-
+    $locationProvider.html5Mode(true);
 
 });
 
