@@ -1,12 +1,3 @@
-h2.col-sm-3 {
-    color: #95AF8C;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-
-#rest_of_body {
-    background-color: #42313F;
-}
 
 .dummy_picture {
     width: 100px;
@@ -24,14 +15,4 @@ h2.col-sm-3 {
 .row.project_list {
     margin-top: 40px;
     margin-bottom: 40px;
-}
-
-h4 {
-    font-size: 3rem;
-    color: #5E5E5E;
-}
-
-p {
-    font-size: 1.25rem;
-    color: #5E5E5E;
 }
