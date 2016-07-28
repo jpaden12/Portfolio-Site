@@ -1,3 +1,3 @@
-This is my portfolio website. http://jamalpaden.me
+# This is my portfolio website.
 
-Built using HTML, CSS, AngularJS, and Bootstrap
+# Built using HTML, CSS and AngularJS
