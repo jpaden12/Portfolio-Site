@@ -27,17 +27,17 @@ app.config(function($routeProvider) {
         .when("/portfolio",
             {
             templateUrl: "../views/Portfolio%20Page.html",
-            controller: "controller"
-            })
-        .when("/resume",
-            {
-                templateUrl: "../Jamals_Resume.pdf",
-                controller: "resume"
+            controller: "Portfolio"
             })
         .when("/contact",
             {
                 templateUrl: "ContactMe.html",
                 controller: "contactPage"
+            })
+        .when("/about",
+            {
+                templateUrl: "../views/aboutPage.html",
+                controller: "aboutPage"
             })
         .otherwise({
             redirectTo: "/"
