@@ -8,7 +8,7 @@ app.directive('project', function() {
         restrict: 'E',
         templateUrl: "../js/project.html",
         scope: {
-            student: "= title"
+            thing: "= title"
         }
     };
 
@@ -31,7 +31,7 @@ app.config(function($routeProvider) {
             })
         .when("/contact",
             {
-                templateUrl: "ContactMe.html",
+                templateUrl: "../views/ContactMe.html",
                 controller: "contactPage"
             })
         .when("/about",
