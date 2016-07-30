@@ -21,8 +21,8 @@ app.config(function($routeProvider) {
     $routeProvider
         .when("/",
             {
-            templateUrl: "../views/Landing%20Page.html",
-            controller: "landingPage"
+            templateUrl: "../views/aboutPage.html",
+            controller: "aboutPage"
             })
         .when("/portfolio",
             {
@@ -33,11 +33,6 @@ app.config(function($routeProvider) {
             {
                 templateUrl: "../views/ContactMe.html",
                 controller: "contactPage"
-            })
-        .when("/about",
-            {
-                templateUrl: "../views/aboutPage.html",
-                controller: "aboutPage"
             })
         .otherwise({
             redirectTo: "/"
