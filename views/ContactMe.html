@@ -1,7 +1,14 @@
 
 <style>
+
     #contactPage {
+        color: white;
+        padding-bottom: 90px;
+
+    #contact {
         background-image: url("../images/buried-1920x1080.png");
+        background-size: cover;
+
     }
 
     img {
@@ -9,17 +16,61 @@
         width: 75px;
     }
 
+    header {
+        background: white;
+    }
+
+    body {
+        background-image: url("../images/buried-1920x1080.png")
+    }
+
+    .icon {
+        padding: 10px 5px 5px 5px;
+    }
+
+    #message {
+        text-align: center;
+    }
+
 </style>
 
-<div id="contactPage">
+
+<div class="container" id="contactPage">
+    <h2 id="message">Contact Me!!!</h2>
     <!-- Social media icons needed: Facebook, Linkedin, Github, Mail, Tumblr -->
     <div class="container-fluid">
-        <div class="row">
-        <img class="col-xs-6 col-md-3" src="../images/facebook_icon.png">
-        <img class="col-xs-6 col-md-3" src="../images/linkedin_icon.png">
-        <img class="col-xs-6 col-md-3" src="../images/github_icon.png">
-        <img class="col-xs-6 col-md-3" src="../images/mail_icon.png">
-        </div>
-    </div>
+        <div class="row text-center">
 
+            <!-- Icons for small and larger screens. Text for xs screens. -->
+            <span class="col-xs-6 col-md-4"></span>
+
+            <span class="col-xs-6 col-md-4">
+                <img class="icon" src="../images/facebook_icon.png">
+                <img class="icon" src="../images/linkedin_icon.png">
+                <img class="icon" src="../images/github_icon.png">
+                <img class="icon" src="../images/mail_icon.png">
+            </span>
+
+            <span class="col-xs-6 col-md-4"></span>
+
+
+
+<div id="contact">
+    <!-- Social media icons needed: Facebook, Linkedin, Github, Mail, Tumblr -->
+        <div class="col-xs-6 col-md-3">
+            <img src="../images/facebook_icon.png">
+        </div> 
+        
+        <div class="col-xs-6 col-md-3"> 
+            <img src="../images/linkedin_icon.png">
+
+        </div>
+        
+        <div class="col-xs-6 col-md-3">
+            <img src="../images/github_icon.png">
+        </div>
+        
+        <div class="col-xs-6 col-md-3"> 
+            <img src="../images/mail_icon.png">
+        </div>
 </div>
