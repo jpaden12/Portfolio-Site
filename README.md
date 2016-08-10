@@ -1,3 +1,3 @@
 # This is my portfolio website.
 
-# Built using HTML, CSS and AngularJS
+This site was created using AngularJS and Bootstrap and it is hosted on Github Pages. 
