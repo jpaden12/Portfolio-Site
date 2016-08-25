@@ -9,17 +9,20 @@ app.controller('Portfolio', function($scope) {
             {
                 picture: null,
                 title: "MATLAB Motion Detector", 
-                description: "A Motion detector created with an Arduino Uno and Programmed with " +
-                'MATLAB. ',
+                description: "This is a motion detector that was created using an Arduino Uno and programmed using MATLAB." +
+                    "The attatched photoresistor detected light at certain time intervals, and an algorithm detected whether motion occurred."
+                    + "This was a final project for my Computing for Engineers class.",
                 date: "March 2015 - May 2015",
-                site: "link"
+                site: "https://github.com/jpaden12/MATLAB-Motion-Detector"
 
             },
             {
                 picture: null,
                 title: "Project Wind Waker",
                 description: "A level from The Legend of Zelda: Wind Waker recreated on Oculus Rift and " +
-                    "controlled with two Myo armbands. This project won Best Hardware Hack at RevolutionUC",
+                    "controlled with two Myo armbands." +
+                    "I helped to script the behavior of enemies in C# and also modeled some of the envornmental assets" +
+                    "using Blender. This project won 'Best Hardware Hack' at RevolutionUC.",
                 date: "May 2015",
                 site: "link"
             },
