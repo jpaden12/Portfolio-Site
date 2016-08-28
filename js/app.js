@@ -3,10 +3,10 @@
  */
 var app = angular.module('app', ['ngRoute']);
 
-app.directive('project', function() {
+/*app.directive('project', function() {
     var directive = {
         restrict: 'E',
-        templateUrl: "../js/project.html",
+        templateUrl: "../js/",
         scope: {
             thing: "= title"
         }
@@ -16,6 +16,7 @@ app.directive('project', function() {
 
     return directive; 
 });
+*/
 
 app.config(function($routeProvider) {
     $routeProvider

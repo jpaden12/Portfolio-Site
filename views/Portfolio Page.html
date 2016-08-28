@@ -17,6 +17,7 @@
         height: 150px;
         margin-top: 40px;
         margin-left: 40px;
+        float: left;
     }
 
     .row.project_list {
@@ -44,8 +45,21 @@
 
 </style>
 
-<div id="projects">
+<div ng-controller="Portfolio">
     <div ng-repeat = "project in projects">
-        <project title = "project"></project><br/>
+        <div class="row project_list">
+
+            <div class="col-sm-4">
+                <img ng-src="{{project.picture}}"/>
+            </div>
+
+            <div class="col-sm-8">
+                <h4 class="title">{{ project.title }}</h4>
+                <p id="description">{{ project.description }}</p>
+                <p id="date">{{ project.date }}</p>
+                <p id="link"><a ng-href="{{ project.site }}"></p>
+            </div>
+
+        </div>
     </div>
 </div>
