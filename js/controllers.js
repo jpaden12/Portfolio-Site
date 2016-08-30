@@ -36,7 +36,7 @@ app.controller('Portfolio', function($scope) {
                 site: "link"
             },
             {
-                picture: "../images/RPS_pic.png",
+                picture: "../images/unavailable.gif",
                 title: "Rock Paper Scissors",
                 description: "A basic Rock, Paper, Scissors game created in Python. The EasyGUI module was utilized to create " +
                 "a simple user interface",
