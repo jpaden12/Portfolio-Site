@@ -3,21 +3,6 @@
  */
 var app = angular.module('app', ['ngRoute']);
 
-/*app.directive('project', function() {
-    var directive = {
-        restrict: 'E',
-        templateUrl: "../js/",
-        scope: {
-            thing: "= title"
-        }
-    };
-
-    directive.compile = function(element, attributes) {};
-
-    return directive; 
-});
-*/
-
 app.config(function($routeProvider) {
     $routeProvider
         .when("/",
